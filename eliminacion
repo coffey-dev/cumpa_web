@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitud de Eliminación de Cuenta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        a {
+            display: inline-block;
+            background-color: #ff4c4c;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #d43f3f;
+        }
+    </style>
+</head>
+<body>
+    <h2>Solicitar Eliminación de Cuenta</h2>
+    <p>Si deseas eliminar tu cuenta y los datos asociados, por favor haz clic en el siguiente enlace:</p>
+    <a href="mailto:cumpa.app@gmail.com?subject=Solicitud de Eliminación de Cuenta&body=Hola, deseo solicitar la eliminación de mi cuenta y los datos asociados.">
+        Solicitar Eliminación de Cuenta
+    </a>
+</body>
+</html>
