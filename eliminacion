@@ -3,32 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solicitud de Eliminación de Cuenta</title>
+    <title>Eliminar Cuenta - Cumpa</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            padding: 50px;
+            padding: 40px;
+            background-color: #f9f9f9;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            font-size: 16px;
+            color: #555;
+            max-width: 600px;
+            margin: 0 auto 20px;
         }
         a {
             display: inline-block;
             background-color: #ff4c4c;
             color: white;
-            padding: 10px 20px;
+            padding: 12px 20px;
             text-decoration: none;
             font-size: 18px;
             border-radius: 5px;
+            font-weight: bold;
         }
         a:hover {
             background-color: #d43f3f;
         }
+        .container {
+            max-width: 700px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 <body>
-    <h2>Solicitar Eliminación de Cuenta</h2>
-    <p>Si deseas eliminar tu cuenta y los datos asociados, por favor haz clic en el siguiente enlace:</p>
-    <a href="mailto:cumpa.app@gmail.com?subject=Solicitud de Eliminación de Cuenta&body=Hola, deseo solicitar la eliminación de mi cuenta y los datos asociados.">
-        Solicitar Eliminación de Cuenta
-    </a>
+    <div class="container">
+        <h2>Solicitud de Eliminación de Cuenta - Cumpa</h2>
+        
+        <p>Si deseas eliminar tu cuenta y los datos asociados a la aplicación <b>Cumpa</b>, sigue los pasos a continuación:</p>
+        
+        <h3>📌 Pasos para solicitar la eliminación:</h3>
+        <p>1️⃣ Haz clic en el siguiente botón para enviar un correo electrónico.</p>
+        <p>2️⃣ En el correo, asegúrate de incluir la dirección de email con la que te registraste en la app.</p>
+        <p>3️⃣ Nuestro equipo procesará la solicitud en un plazo máximo de 10 días hábiles.</p>
+        
+        <a href="mailto:cumpa.app@gmail.com?subject=Solicitud de Eliminación de Cuenta&body=Hola, deseo solicitar la eliminación de mi cuenta y los datos asociados a Cumpa. Mi correo registrado es: ">
+            Solicitar Eliminación de Cuenta
+        </a>
+
+        <h3>📂 ¿Qué datos se eliminan?</h3>
+        <p>Al eliminar tu cuenta, los siguientes datos serán eliminados de nuestros servidores:</p>
+        <ul style="text-align: left; display: inline-block;">
+            <li>✔️ Tu dirección de correo electrónico</li>
+            <li>✔️ Datos de autenticación</li>
+            <li>✔️ Preferencias de usuario y configuraciones</li>
+        </ul>
+
+        <h3>⏳ ¿Se retiene algún dato?</h3>
+        <p>Algunos datos pueden ser retenidos durante un período de hasta 90 días por razones legales o administrativas.</p>
+        
+        <p>Si tienes dudas, puedes contactarnos en <b>cumpa.app@gmail.com</b>.</p>
+    </div>
 </body>
 </html>
+
